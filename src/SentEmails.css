@@ -1,0 +1,36 @@
+.sent-emails {
+    bottom: 20px;
+  margin-left: 550px;
+  margin-top: -200px;
+    top: 40px;
+    width: 500px;
+    height: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.sent-emails h2 {
+    margin-bottom: 20px;
+}
+
+.sent-emails ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sent-emails li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.sent-emails li div {
+    margin-bottom: 5px;
+}
+
+.sent-emails li div strong {
+    font-weight: bold;
+}

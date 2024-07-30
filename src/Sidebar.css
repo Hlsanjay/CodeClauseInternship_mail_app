@@ -1,0 +1,48 @@
+.sidebar {
+    width: 300px;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar__header img {
+    width: 100px;
+  }
+  
+  .sidebar__compose {
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .sidebar__options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar__option {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #5f6368;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+  }
+  
+  .sidebar__option:hover {
+    background-color: #f1f3f4;
+    color: black;
+  }
+  

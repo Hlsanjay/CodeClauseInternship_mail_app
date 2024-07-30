@@ -1,0 +1,74 @@
+.compose-dialog {
+  position: fixed;
+  bottom: 20px;
+  right: 250px;
+  width: 500px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.compose-dialog__header {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.compose-dialog__close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.compose-dialog__body {
+  padding: 10px;
+}
+
+.compose-dialog__input {
+    resize: none;
+  width: 460px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.compose-dialog__cc {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.compose-dialog__textarea {
+    resize: none;
+  width: 460px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.compose-dialog__footer {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.compose-dialog__send {
+  padding: 10px 20px;
+  color: white;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.compose-dialog__icons {
+  display: flex;
+  gap: 10px;
+}
